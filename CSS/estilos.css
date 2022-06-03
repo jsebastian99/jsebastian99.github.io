@@ -60,6 +60,7 @@ body{
 
 .nave__title{
     font-weight: 300;
+    font-size: 20px;
 }
 
 .nav__link{
@@ -119,7 +120,7 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #238676;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -134,13 +135,14 @@ body{
 }
 
 .subtitle{
-    color: var(--color-title);
+    color: #FC7323;
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
 .about__paragraph{
     line-height: 1.7;
+    color: #238676;
 }
 
 .about__main{
@@ -199,6 +201,11 @@ body{
     text-align: center;
 }
 
+.subtitle-price{
+    color: #238676;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 .price__table{
     padding-top: 60px;
     display: flex;
@@ -212,7 +219,7 @@ body{
     background-color: #E5E5F7;
     text-align: center;
     border-radius: 10px;
-    width: 330px;
+    width: 370px;
     padding: 40px;
     --color-plan: #696871;
     --color-price: #1D293F;
@@ -221,36 +228,37 @@ body{
     --color-items: #696871;
 }
 
-.price__element--best{
+/*.price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #FF7143;
+    background-color: #FC7323;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
-    --bg-cta: #9f3919;
+    --bg-cta: rgb(89 181 72);
     --color-cta: #fff;
     --color-items: #fff;
-}
+}*/
 
 .price__name{
-    color: var(--color-plan);
+    color: #000;
     margin-bottom: 15px;
-    font-weight: 300;
+    font-weight: 0;
+    font-size: 20px;
 }
 
 .plan__price{
     font-size: 2.5rem;
-    color: var(--color-price);
+    color: #FC7323;
 }
 
 .price__items{
     margin-top: 35px;
     display: grid;
     gap: 1em;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 1.3rem;
     margin-bottom: 50px;
-    color: var(--color-items);
+    color: black;
 }
 
 .price__cta{
@@ -260,8 +268,9 @@ body{
     text-decoration: none;
     background-color: var(--bg-cta);
     font-weight: 600;
-    color: var(--color-cta);
+    color: #238276;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    font-size: 20px;
 }
 
 /* Testimony */
@@ -335,8 +344,8 @@ body{
 .questions__padding{
     padding: 0;
     transition: padding .4s;
-    border: 1px solid #5454D4;
-    border-radius: 6px;
+    border: 1px solid #FC7323;
+    border-radius: 8px;
 }
 
 .questions__padding--add{
@@ -354,13 +363,14 @@ body{
     padding: 30px 0 30px;
     font-size: 20px;
     cursor: pointer;
-    color: var(--color-title);
+    color: #238276;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .questions__arrow{
     border-radius: 50%;
-    background-color: var(--color-title);
+    background-color: #238276;
     width: 25px;
     height: 25px;
     display: flex;
@@ -395,12 +405,12 @@ body{
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #FC7323;
 }
 
 .footer__title{
-    font-weight: 300;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -427,8 +437,9 @@ body{
 .nav__link--footer{
     display: flex;
     margin: 0;
-    margin-right: 20px;
+    margin-right: 10px;
     flex-wrap: wrap;
+    font-size: 18px;
 }
 
 .footer__inputs{
@@ -454,9 +465,9 @@ body{
     display: inline-block;
     height: 50px;
     padding: 0 20px;
-    background-color: #2091f9;
+    background-color: #238276;
     border: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
