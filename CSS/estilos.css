@@ -604,6 +604,7 @@ body{
         width: 100%;
         justify-content: space-evenly;
         text-align: center;
+        margin: 50px;
     }
 
     .footer__input{
@@ -668,7 +669,7 @@ body{
     }
 
     .nav__link--footer{
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .footer__inputs{
