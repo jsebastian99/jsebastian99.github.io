@@ -120,12 +120,13 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #238676;
+    background-color: #FC7323;
     justify-self: center;
     color: #fff;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    font-size: 20px;
 }
 
 /* About */
@@ -153,6 +154,21 @@ body{
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icon--1{
+    max-width: 2.8em ;
+    max-height: 2.8em;
+}
+
+.about__icon--2{
+    max-width: 3.5em ;
+    max-height: 3.5em;
+}
+
+.about__icon--3{
+    max-width: 3.2em ;
+    max-height: 3.2em;
 }
 
 .about__icons{
@@ -363,7 +379,7 @@ body{
     padding: 30px 0 30px;
     font-size: 20px;
     cursor: pointer;
-    color: #238276;
+    color: rgb(56, 53, 53);
     justify-content: space-between;
     font-weight: bold;
 }
