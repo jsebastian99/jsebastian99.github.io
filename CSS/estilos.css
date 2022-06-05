@@ -2,7 +2,7 @@
 
 :root{
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #FC7323;
 }
 
 body{
@@ -15,6 +15,14 @@ body{
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
+}
+
+.header__img{
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin: auto;
+    border-bottom: 0px;
 }
 
 .hero{
@@ -35,7 +43,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(180deg, #00000060 0%, #0000008c 100%), url('../images/industry1.png');
+    background-image:linear-gradient(180deg, #00000060 0%, #0000008c 80%), url('../images/industry1.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -106,7 +114,7 @@ body{
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
     text-align: center;
 }
 
