@@ -128,13 +128,14 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #238276;
+    background-color: #FC7323;
     justify-self: center;
     color: #fff;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
     font-size: 20px;
+    text-align: center;
 }
 
 /* About */
@@ -206,10 +207,11 @@ body{
 }
 
 .knowledge__picture{
-    border-top: 4px solid #238276;
-    border-left: 4px solid #238276;
-    border-bottom: 4px solid #238276;
-    border-right: 4px solid #238276;
+    border-radius: 10px;
+    border-top: 8px solid #238276;
+    border-left: 8px solid #238276;
+    border-bottom: 8px solid #238276;
+    border-right: 8px solid #238276;
 }
 
 .knowledge__paragraph{
@@ -674,6 +676,28 @@ body{
 
     .hero__paragraph{
         font-size: 1rem;
+    }
+
+    .knowledge__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .knowledge__picture{
+        border-radius: 10px;
+        border-top: 5px solid #238276;
+        border-left: 5px solid #238276;
+        border-bottom: 5px solid #238276;
+        border-right: 5px solid #238276;
+    }
+
+    .knowledge__picture--youtube{
+        grid-row: 1/2;
+        justify-self: center;
+        width: 345px;
+        height: 260px;
     }
 
     .subtitle{
