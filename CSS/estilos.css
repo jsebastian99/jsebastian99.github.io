@@ -610,6 +610,13 @@ body{
         justify-self: center;
     }
 
+    .knowledge__picture--youtube{
+        grid-row: 1/2;
+        justify-self: center;
+        width: 500px;
+        height: 300px;
+    }
+
     .testimony__container{
         grid-template-columns: 30px 1fr 30px;
     }
