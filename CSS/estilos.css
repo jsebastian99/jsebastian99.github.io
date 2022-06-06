@@ -128,7 +128,7 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #FC7323;
+    background-color: #238276;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -206,7 +206,10 @@ body{
 }
 
 .knowledge__picture{
-    max-width: 470px;
+    border-top: 4px solid #238276;
+    border-left: 4px solid #238276;
+    border-bottom: 4px solid #238276;
+    border-right: 4px solid #238276;
 }
 
 .knowledge__paragraph{
@@ -227,7 +230,7 @@ body{
 
 .subtitle-price{
     color: #238676;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 .price__table{
@@ -264,10 +267,25 @@ body{
 }*/
 
 .price__name{
-    color: #000;
+    color: rgb(29, 28, 28);
     margin-bottom: 15px;
-    font-weight: 0;
+    font-weight: bold;
     font-size: 20px;
+}
+
+.plan__price--blynk{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.plan__price--teamvewer{
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.plan__price--cloud{
+    max-width: 170px;
+    max-height: 170px;
 }
 
 .plan__price{
@@ -276,31 +294,35 @@ body{
 }
 
 .price__items{
-    margin-top: 35px;
+    margin-top: 10px;
     display: grid;
     gap: 1em;
     font-weight: normal;
-    font-size: 1.3rem;
-    margin-bottom: 50px;
-    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+    color: rgb(33, 31, 31);
 }
 
 .price__cta{
     display: block;
     padding: 20px 0;
-    border-radius: 10px;
+    border-radius: 15px;
     text-decoration: none;
     background-color: var(--bg-cta);
     font-weight: 600;
-    color: #238276;
-    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    color: #FC7323;
+    box-shadow: 0px 20px 25px -10px rgba(21, 21, 21, 0.5);
     font-size: 20px;
 }
 
 /* Testimony */
 
 .testimony{
-    background-color: #E5E5F7;
+    background-color: #e5e5f7;
+    opacity: 0.9;
+    background-image:  radial-gradient(#134841 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#134841 0.7000000000000001px, #e5e5f7 0.7000000000000001px);
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
 }
 
 .testimony__container{
@@ -328,6 +350,11 @@ body{
     transition: opacity 1.5s ease-in-out;
 }
 
+.testimony__review{
+    line-height: 25px;
+    text-align: justify;
+}
+
 .testimony__img{
     width: 250px;
     height: 250px;
@@ -341,7 +368,7 @@ body{
 }
 
 .testimony__course{
-    background-color: royalblue;
+    background-color: #238276;
     color: #fff;
     display: inline-block;
     padding: 5px;
