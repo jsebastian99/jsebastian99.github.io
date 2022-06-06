@@ -449,6 +449,7 @@ body{
 }
 
 .questions__copy{
+    font-size: 20px;
     margin-bottom: 30px;
     width: 60%;
     margin:0 auto;
@@ -696,8 +697,8 @@ body{
     .knowledge__picture--youtube{
         grid-row: 1/2;
         justify-self: center;
-        width: 345px;
-        height: 260px;
+        width: 350px;
+        height: 200px;
     }
 
     .subtitle{
